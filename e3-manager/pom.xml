@@ -14,7 +14,7 @@
 		<module>e3-manager-pojo</module>
 		<module>e3-manager-dao</module>
 		<module>e3-manager-service</module>
-		<module>e3-manager-web</module>
+		<module>e3-manager-interface</module>
 	</modules>
 	<!-- 后台管理系统聚合父工程: 1,管理子工程(统一打包,部署,启动[tomcat插件]) 2,抽取子工程共同依赖的坐标 -->
 	<dependencies>
@@ -35,7 +35,7 @@
 					<!-- /表示把项目发布到tomcat服务器跟路径[tomcat/webapps/ROOT/] -->
 					<path>/</path>
 					<!-- 启动端口 -->
-					<port>8080</port>
+					<port>8090</port>
 				</configuration>
 			</plugin>
 		</plugins>
