@@ -26,4 +26,7 @@
 	<!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
 	<dubbo:reference id="itemService"
 		interface="cn.e3.manager.service.ItemService" />
+	<!-- 引入商品类目服务 -->
+	<dubbo:reference id="itemCatService"
+		interface="cn.e3.manager.service.ItemCatService" />
 </beans>
